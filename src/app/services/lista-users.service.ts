@@ -11,14 +11,11 @@ export class ListaUsersService {
   // Posso creare proprietà della stessa
 
   private _users: Iuser[] = [
-    new User(),
-    new User(),
-    new User(),
-    new User(),
-    new User(),
-    new User(),
-    new User(),
-    new User(),
+    new User('Jessica','email@jessica',0),
+    new User('Chiara','email@chiara'),
+    new User('Ilenia','email@ilenia'),
+    new User('Fabio','email@fabio'),
+    new User('Matteo', 'email@matteo'),
   ];
 
   getUsers(){
